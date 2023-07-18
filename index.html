@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdulkadir Henry Ibrahim</title>
+  <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+  
+  <header>
+    <img src="http://gdurl.com//OPyG" width="300" height="300">
+    
+    <h1>Product Manager Portfolio</h1>
+    <h1>By</h1>
+    <h1>ABDULKADIR HENRY IBRAHIM</h1>
+  </header>
+<style>
+  h1 {
+    color:white;
+    text-decoration-color: white;
+  }
+  img {
+    border-radius: 50%;
+  }
+  html {
+  scroll-behavior: smooth;
+}
+  
+</style>
+  <nav>
+    <div id="nav-toggle">&#9776;</div>
+    <ul id="nav-menu">
+      <nav>
+        <div id="nav-toggle">&#9776;</div>
+        <ul id="nav-menu">
+          <nav>
+            <div id="nav-toggle">&#9776;</div>
+            <ul id="nav-menu">
+              <li><a href="About+Connect.html">About + Connect</a></li>
+              <li><a href="projectspage.html">prjects page</a></li>
+            </ul>
+    <!-- Navigation menu goes here -->
+  </nav>
+
+  <main>
+    <section id="About + Connect">
+      </section>
+      <Section id="prjects page">
+
+      </Section>
+      </main>
+  <nav id="nav-bar">
+
+    <a href="projectspage.html">prjects page</a>
+    <br>
+    <a href="About+Connect.html">About + Connect</a>
+  </nav>
+  <footer>
+    <h3>Contact Information</h3>
+    <footer>&copy; 
+       Whatsapp @ 09091821282, Email @ Khadreeyibrahim@gmail.com
+        </footer>
+    <!-- Your contact information details -->
+  </footer>
+
+  <script src="script.js"></script>
+  <script>// Smooth scrolling for anchor links
+    document.addEventListener('DOMContentLoaded', function() {
+      var anchorLinks = document.querySelectorAll('a[href^="#"]');
+      for (var i = 0; i < anchorLinks.length; i++) {
+        anchorLinks[i].addEventListener('click', function(e) {
+          e.preventDefault();
+          var target = document.querySelector(this.getAttribute('href'));
+          target.scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      }
+    });
+    
+    // Toggle navigation menu for smaller screens
+    var navToggle = document.getElementById('nav-toggle');
+    var navMenu = document.getElementById('nav-menu');
+    
+    if (navToggle && navMenu) {
+      navToggle.addEventListener('click', function() {
+        navMenu.classList.toggle('show');
+      });
+    }</script>
+</body>
+</html>
